@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.env
+*.db
+*.sqlite3
+models/*.joblib
+models/*.pkl
+.streamlit/secrets.toml
+.DS_Store
+*.log
+screenshots/*.png
+!screenshots/README.md

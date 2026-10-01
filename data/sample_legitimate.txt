@@ -1,0 +1,10 @@
+From: training@example.org
+Subject: Cybersecurity Workshop Reminder
+
+Hello student,
+
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM.
+No action is required.
+
+Regards,
+Training Team

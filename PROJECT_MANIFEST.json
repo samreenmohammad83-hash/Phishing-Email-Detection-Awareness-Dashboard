@@ -1,0 +1,13 @@
+{
+  "project": "Phishing Email Detection & Awareness Dashboard",
+  "generated_at": "2026-09-29T16:26:37.817469",
+  "file_count": 43,
+  "dataset_records": 600,
+  "safety": [
+    "synthetic/fictional data only",
+    "static URL analysis only",
+    "no attachment execution",
+    "no credential collection",
+    "no real phishing delivery"
+  ]
+}

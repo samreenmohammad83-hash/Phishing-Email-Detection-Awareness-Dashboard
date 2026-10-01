@@ -1,0 +1,776 @@
+email_id,sender,sender_domain,subject,body,urls,attachment_name,label,category
+DEMO-0001,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/verify-account,,PHISHING,hr
+DEMO-0002,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,,agenda.pdf,LEGITIMATE,shopping
+DEMO-0003,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/verify-account,,PHISHING,invoice
+DEMO-0004,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",,,LEGITIMATE,password
+DEMO-0005,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/payment,invoice.pdf.exe,PHISHING,verification
+DEMO-0006,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.com/training,agenda.pdf,LEGITIMATE,university
+DEMO-0007,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/delivery,payment.zip,PHISHING,hr
+DEMO-0008,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",https://example.org/info,policy.pdf,LEGITIMATE,meeting
+DEMO-0009,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/verify-account,invoice.pdf.exe,PHISHING,executive
+DEMO-0010,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.org/info,policy.pdf,LEGITIMATE,password
+DEMO-0011,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/payment,verification.js,PHISHING,invoice
+DEMO-0012,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",,newsletter.txt,LEGITIMATE,hr
+DEMO-0013,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/claim-reward,verification.js,PHISHING,verification
+DEMO-0014,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,,newsletter.txt,LEGITIMATE,shopping
+DEMO-0015,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/verify-account,payment.zip,PHISHING,delivery
+DEMO-0016,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.com/training,policy.pdf,LEGITIMATE,hr
+DEMO-0017,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/delivery,verification.js,PHISHING,executive
+DEMO-0018,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",https://example.com/training,,LEGITIMATE,meeting
+DEMO-0019,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/payment,verification.js,PHISHING,verification
+DEMO-0020,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",,,LEGITIMATE,hr
+DEMO-0021,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/claim-reward,payment.zip,PHISHING,password
+DEMO-0022,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,,policy.pdf,LEGITIMATE,newsletter
+DEMO-0023,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/payment,verification.js,PHISHING,prize
+DEMO-0024,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.com/training,agenda.pdf,LEGITIMATE,hr
+DEMO-0025,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/payment,invoice.pdf.exe,PHISHING,delivery
+DEMO-0026,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.org/info,policy.pdf,LEGITIMATE,bank-style
+DEMO-0027,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/delivery,invoice.pdf.exe,PHISHING,hr
+DEMO-0028,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,,agenda.pdf,LEGITIMATE,newsletter
+DEMO-0029,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/verify-account,verification.js,PHISHING,executive
+DEMO-0030,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.org/info,,LEGITIMATE,password
+DEMO-0031,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/delivery,verification.js,PHISHING,invoice
+DEMO-0032,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",https://example.com/training,newsletter.txt,LEGITIMATE,meeting
+DEMO-0033,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/login,invoice.pdf.exe,PHISHING,password
+DEMO-0034,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,,agenda.pdf,LEGITIMATE,shopping
+DEMO-0035,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/delivery,verification.js,PHISHING,hr
+DEMO-0036,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.com/training,newsletter.txt,LEGITIMATE,password
+DEMO-0037,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/payment,invoice.pdf.exe,PHISHING,prize
+DEMO-0038,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,,,LEGITIMATE,bank-style
+DEMO-0039,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/verify-account,invoice.pdf.exe,PHISHING,executive
+DEMO-0040,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.com/training,newsletter.txt,LEGITIMATE,project
+DEMO-0041,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/verify-account,payment.zip,PHISHING,delivery
+DEMO-0042,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.com/training,newsletter.txt,LEGITIMATE,password
+DEMO-0043,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/claim-reward,,PHISHING,delivery
+DEMO-0044,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.com/training,policy.pdf,LEGITIMATE,hr
+DEMO-0045,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/claim-reward,,PHISHING,executive
+DEMO-0046,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.org/info,agenda.pdf,LEGITIMATE,shopping
+DEMO-0047,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/verify-account,verification.js,PHISHING,password
+DEMO-0048,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.com/training,,LEGITIMATE,project
+DEMO-0049,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/claim-reward,invoice.pdf.exe,PHISHING,executive
+DEMO-0050,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.org/info,agenda.pdf,LEGITIMATE,project
+DEMO-0051,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/delivery,,PHISHING,delivery
+DEMO-0052,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,https://example.org/info,,LEGITIMATE,newsletter
+DEMO-0053,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/claim-reward,verification.js,PHISHING,verification
+DEMO-0054,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",,agenda.pdf,LEGITIMATE,meeting
+DEMO-0055,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/verify-account,,PHISHING,delivery
+DEMO-0056,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,,agenda.pdf,LEGITIMATE,bank-style
+DEMO-0057,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/login,invoice.pdf.exe,PHISHING,invoice
+DEMO-0058,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.com/training,newsletter.txt,LEGITIMATE,shopping
+DEMO-0059,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/delivery,invoice.pdf.exe,PHISHING,invoice
+DEMO-0060,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.org/info,policy.pdf,LEGITIMATE,shopping
+DEMO-0061,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/delivery,payment.zip,PHISHING,password
+DEMO-0062,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",,agenda.pdf,LEGITIMATE,hr
+DEMO-0063,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/claim-reward,,PHISHING,verification
+DEMO-0064,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",https://example.com/training,agenda.pdf,LEGITIMATE,meeting
+DEMO-0065,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/verify-account,,PHISHING,verification
+DEMO-0066,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",,,LEGITIMATE,meeting
+DEMO-0067,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/claim-reward,,PHISHING,executive
+DEMO-0068,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",https://example.org/info,newsletter.txt,LEGITIMATE,meeting
+DEMO-0069,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/delivery,invoice.pdf.exe,PHISHING,invoice
+DEMO-0070,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,,newsletter.txt,LEGITIMATE,bank-style
+DEMO-0071,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/login,invoice.pdf.exe,PHISHING,executive
+DEMO-0072,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",,newsletter.txt,LEGITIMATE,hr
+DEMO-0073,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/login,payment.zip,PHISHING,prize
+DEMO-0074,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.com/training,,LEGITIMATE,bank-style
+DEMO-0075,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/verify-account,,PHISHING,hr
+DEMO-0076,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.com/training,policy.pdf,LEGITIMATE,password
+DEMO-0077,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/verify-account,invoice.pdf.exe,PHISHING,executive
+DEMO-0078,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",,newsletter.txt,LEGITIMATE,meeting
+DEMO-0079,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/login,invoice.pdf.exe,PHISHING,invoice
+DEMO-0080,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.org/info,agenda.pdf,LEGITIMATE,shopping
+DEMO-0081,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/verify-account,payment.zip,PHISHING,executive
+DEMO-0082,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",,,LEGITIMATE,hr
+DEMO-0083,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/payment,invoice.pdf.exe,PHISHING,verification
+DEMO-0084,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.org/info,newsletter.txt,LEGITIMATE,password
+DEMO-0085,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/login,,PHISHING,invoice
+DEMO-0086,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.org/info,,LEGITIMATE,project
+DEMO-0087,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/claim-reward,payment.zip,PHISHING,password
+DEMO-0088,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.org/info,newsletter.txt,LEGITIMATE,shopping
+DEMO-0089,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/payment,verification.js,PHISHING,invoice
+DEMO-0090,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",,,LEGITIMATE,meeting
+DEMO-0091,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/claim-reward,,PHISHING,hr
+DEMO-0092,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.com/training,newsletter.txt,LEGITIMATE,university
+DEMO-0093,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/delivery,invoice.pdf.exe,PHISHING,delivery
+DEMO-0094,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.com/training,,LEGITIMATE,university
+DEMO-0095,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/payment,,PHISHING,executive
+DEMO-0096,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.com/training,agenda.pdf,LEGITIMATE,hr
+DEMO-0097,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/verify-account,invoice.pdf.exe,PHISHING,password
+DEMO-0098,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.com/training,,LEGITIMATE,university
+DEMO-0099,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/delivery,verification.js,PHISHING,password
+DEMO-0100,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,,policy.pdf,LEGITIMATE,shopping
+DEMO-0101,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/claim-reward,payment.zip,PHISHING,invoice
+DEMO-0102,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.com/training,policy.pdf,LEGITIMATE,project
+DEMO-0103,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/claim-reward,,PHISHING,password
+DEMO-0104,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.org/info,,LEGITIMATE,university
+DEMO-0105,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/delivery,invoice.pdf.exe,PHISHING,verification
+DEMO-0106,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,,policy.pdf,LEGITIMATE,shopping
+DEMO-0107,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/payment,verification.js,PHISHING,verification
+DEMO-0108,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,,newsletter.txt,LEGITIMATE,shopping
+DEMO-0109,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/delivery,verification.js,PHISHING,executive
+DEMO-0110,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.com/training,policy.pdf,LEGITIMATE,university
+DEMO-0111,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/verify-account,invoice.pdf.exe,PHISHING,hr
+DEMO-0112,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,,,LEGITIMATE,shopping
+DEMO-0113,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/delivery,invoice.pdf.exe,PHISHING,hr
+DEMO-0114,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.org/info,agenda.pdf,LEGITIMATE,shopping
+DEMO-0115,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/claim-reward,invoice.pdf.exe,PHISHING,hr
+DEMO-0116,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.com/training,newsletter.txt,LEGITIMATE,shopping
+DEMO-0117,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/verify-account,,PHISHING,prize
+DEMO-0118,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.org/info,,LEGITIMATE,password
+DEMO-0119,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/claim-reward,invoice.pdf.exe,PHISHING,verification
+DEMO-0120,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,,newsletter.txt,LEGITIMATE,shopping
+DEMO-0121,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/login,,PHISHING,delivery
+DEMO-0122,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",,agenda.pdf,LEGITIMATE,hr
+DEMO-0123,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/verify-account,verification.js,PHISHING,delivery
+DEMO-0124,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.org/info,agenda.pdf,LEGITIMATE,project
+DEMO-0125,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/claim-reward,verification.js,PHISHING,verification
+DEMO-0126,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.org/info,agenda.pdf,LEGITIMATE,university
+DEMO-0127,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/payment,,PHISHING,hr
+DEMO-0128,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,https://example.com/training,newsletter.txt,LEGITIMATE,newsletter
+DEMO-0129,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/payment,invoice.pdf.exe,PHISHING,delivery
+DEMO-0130,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",,newsletter.txt,LEGITIMATE,project
+DEMO-0131,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/payment,verification.js,PHISHING,verification
+DEMO-0132,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.com/training,agenda.pdf,LEGITIMATE,password
+DEMO-0133,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/payment,,PHISHING,prize
+DEMO-0134,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",,newsletter.txt,LEGITIMATE,password
+DEMO-0135,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/payment,payment.zip,PHISHING,invoice
+DEMO-0136,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,https://example.org/info,agenda.pdf,LEGITIMATE,newsletter
+DEMO-0137,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/verify-account,invoice.pdf.exe,PHISHING,invoice
+DEMO-0138,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.org/info,policy.pdf,LEGITIMATE,password
+DEMO-0139,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/verify-account,verification.js,PHISHING,executive
+DEMO-0140,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,https://example.com/training,newsletter.txt,LEGITIMATE,newsletter
+DEMO-0141,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/delivery,verification.js,PHISHING,hr
+DEMO-0142,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",,policy.pdf,LEGITIMATE,university
+DEMO-0143,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/delivery,verification.js,PHISHING,invoice
+DEMO-0144,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",,newsletter.txt,LEGITIMATE,university
+DEMO-0145,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/claim-reward,payment.zip,PHISHING,prize
+DEMO-0146,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.org/info,agenda.pdf,LEGITIMATE,hr
+DEMO-0147,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/verify-account,payment.zip,PHISHING,prize
+DEMO-0148,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.com/training,agenda.pdf,LEGITIMATE,university
+DEMO-0149,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/login,,PHISHING,prize
+DEMO-0150,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,https://example.com/training,policy.pdf,LEGITIMATE,newsletter
+DEMO-0151,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/verify-account,verification.js,PHISHING,hr
+DEMO-0152,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.com/training,newsletter.txt,LEGITIMATE,shopping
+DEMO-0153,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/login,verification.js,PHISHING,prize
+DEMO-0154,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",,newsletter.txt,LEGITIMATE,project
+DEMO-0155,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/login,invoice.pdf.exe,PHISHING,hr
+DEMO-0156,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.org/info,,LEGITIMATE,shopping
+DEMO-0157,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/claim-reward,invoice.pdf.exe,PHISHING,prize
+DEMO-0158,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.com/training,policy.pdf,LEGITIMATE,password
+DEMO-0159,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/login,payment.zip,PHISHING,password
+DEMO-0160,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",https://example.com/training,newsletter.txt,LEGITIMATE,meeting
+DEMO-0161,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/payment,,PHISHING,executive
+DEMO-0162,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.com/training,policy.pdf,LEGITIMATE,shopping
+DEMO-0163,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/payment,verification.js,PHISHING,verification
+DEMO-0164,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",,agenda.pdf,LEGITIMATE,meeting
+DEMO-0165,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/verify-account,invoice.pdf.exe,PHISHING,verification
+DEMO-0166,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.com/training,,LEGITIMATE,bank-style
+DEMO-0167,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/login,invoice.pdf.exe,PHISHING,password
+DEMO-0168,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.org/info,newsletter.txt,LEGITIMATE,password
+DEMO-0169,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/payment,,PHISHING,invoice
+DEMO-0170,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.org/info,agenda.pdf,LEGITIMATE,hr
+DEMO-0171,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/delivery,payment.zip,PHISHING,invoice
+DEMO-0172,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.com/training,agenda.pdf,LEGITIMATE,university
+DEMO-0173,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/verify-account,payment.zip,PHISHING,executive
+DEMO-0174,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.org/info,policy.pdf,LEGITIMATE,project
+DEMO-0175,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/login,payment.zip,PHISHING,executive
+DEMO-0176,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,,newsletter.txt,LEGITIMATE,bank-style
+DEMO-0177,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/claim-reward,invoice.pdf.exe,PHISHING,password
+DEMO-0178,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.com/training,newsletter.txt,LEGITIMATE,shopping
+DEMO-0179,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/payment,verification.js,PHISHING,hr
+DEMO-0180,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,,policy.pdf,LEGITIMATE,bank-style
+DEMO-0181,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/claim-reward,verification.js,PHISHING,invoice
+DEMO-0182,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,https://example.com/training,,LEGITIMATE,newsletter
+DEMO-0183,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/payment,invoice.pdf.exe,PHISHING,invoice
+DEMO-0184,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.com/training,agenda.pdf,LEGITIMATE,password
+DEMO-0185,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/payment,,PHISHING,hr
+DEMO-0186,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.org/info,policy.pdf,LEGITIMATE,password
+DEMO-0187,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/login,payment.zip,PHISHING,delivery
+DEMO-0188,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",,newsletter.txt,LEGITIMATE,university
+DEMO-0189,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/delivery,,PHISHING,password
+DEMO-0190,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.org/info,,LEGITIMATE,password
+DEMO-0191,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/claim-reward,payment.zip,PHISHING,prize
+DEMO-0192,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.com/training,agenda.pdf,LEGITIMATE,password
+DEMO-0193,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/payment,verification.js,PHISHING,password
+DEMO-0194,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.org/info,,LEGITIMATE,password
+DEMO-0195,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/claim-reward,payment.zip,PHISHING,password
+DEMO-0196,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.org/info,agenda.pdf,LEGITIMATE,project
+DEMO-0197,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/delivery,,PHISHING,delivery
+DEMO-0198,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.com/training,,LEGITIMATE,password
+DEMO-0199,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/login,invoice.pdf.exe,PHISHING,verification
+DEMO-0200,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,,,LEGITIMATE,bank-style
+DEMO-0201,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/login,verification.js,PHISHING,prize
+DEMO-0202,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",https://example.org/info,policy.pdf,LEGITIMATE,meeting
+DEMO-0203,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/login,verification.js,PHISHING,prize
+DEMO-0204,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.org/info,,LEGITIMATE,password
+DEMO-0205,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/verify-account,,PHISHING,password
+DEMO-0206,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,,,LEGITIMATE,newsletter
+DEMO-0207,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/verify-account,,PHISHING,executive
+DEMO-0208,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",,,LEGITIMATE,meeting
+DEMO-0209,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/payment,invoice.pdf.exe,PHISHING,delivery
+DEMO-0210,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.org/info,,LEGITIMATE,project
+DEMO-0211,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/payment,payment.zip,PHISHING,delivery
+DEMO-0212,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.org/info,agenda.pdf,LEGITIMATE,shopping
+DEMO-0213,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/delivery,,PHISHING,delivery
+DEMO-0214,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.org/info,,LEGITIMATE,project
+DEMO-0215,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/verify-account,verification.js,PHISHING,delivery
+DEMO-0216,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.org/info,agenda.pdf,LEGITIMATE,password
+DEMO-0217,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/delivery,invoice.pdf.exe,PHISHING,verification
+DEMO-0218,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.com/training,policy.pdf,LEGITIMATE,hr
+DEMO-0219,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/delivery,,PHISHING,executive
+DEMO-0220,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.org/info,newsletter.txt,LEGITIMATE,university
+DEMO-0221,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/claim-reward,,PHISHING,hr
+DEMO-0222,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,,newsletter.txt,LEGITIMATE,newsletter
+DEMO-0223,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/login,,PHISHING,executive
+DEMO-0224,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.org/info,newsletter.txt,LEGITIMATE,password
+DEMO-0225,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/payment,payment.zip,PHISHING,hr
+DEMO-0226,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.com/training,policy.pdf,LEGITIMATE,project
+DEMO-0227,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/delivery,payment.zip,PHISHING,delivery
+DEMO-0228,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.org/info,policy.pdf,LEGITIMATE,bank-style
+DEMO-0229,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/payment,,PHISHING,prize
+DEMO-0230,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.org/info,agenda.pdf,LEGITIMATE,shopping
+DEMO-0231,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/login,payment.zip,PHISHING,executive
+DEMO-0232,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,,newsletter.txt,LEGITIMATE,newsletter
+DEMO-0233,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/claim-reward,invoice.pdf.exe,PHISHING,executive
+DEMO-0234,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,,policy.pdf,LEGITIMATE,bank-style
+DEMO-0235,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/claim-reward,verification.js,PHISHING,executive
+DEMO-0236,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.com/training,policy.pdf,LEGITIMATE,shopping
+DEMO-0237,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/verify-account,invoice.pdf.exe,PHISHING,delivery
+DEMO-0238,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",,newsletter.txt,LEGITIMATE,hr
+DEMO-0239,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/delivery,invoice.pdf.exe,PHISHING,password
+DEMO-0240,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.com/training,newsletter.txt,LEGITIMATE,bank-style
+DEMO-0241,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/verify-account,,PHISHING,password
+DEMO-0242,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,,newsletter.txt,LEGITIMATE,shopping
+DEMO-0243,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/payment,verification.js,PHISHING,hr
+DEMO-0244,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,https://example.org/info,policy.pdf,LEGITIMATE,newsletter
+DEMO-0245,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/delivery,verification.js,PHISHING,password
+DEMO-0246,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,https://example.com/training,newsletter.txt,LEGITIMATE,newsletter
+DEMO-0247,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/claim-reward,verification.js,PHISHING,prize
+DEMO-0248,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",,agenda.pdf,LEGITIMATE,meeting
+DEMO-0249,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/verify-account,invoice.pdf.exe,PHISHING,prize
+DEMO-0250,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",,newsletter.txt,LEGITIMATE,meeting
+DEMO-0251,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/delivery,verification.js,PHISHING,prize
+DEMO-0252,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",,policy.pdf,LEGITIMATE,hr
+DEMO-0253,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/claim-reward,invoice.pdf.exe,PHISHING,invoice
+DEMO-0254,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,,agenda.pdf,LEGITIMATE,shopping
+DEMO-0255,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/verify-account,,PHISHING,prize
+DEMO-0256,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.com/training,agenda.pdf,LEGITIMATE,shopping
+DEMO-0257,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/login,,PHISHING,hr
+DEMO-0258,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.com/training,policy.pdf,LEGITIMATE,university
+DEMO-0259,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/login,payment.zip,PHISHING,password
+DEMO-0260,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,,,LEGITIMATE,newsletter
+DEMO-0261,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/login,,PHISHING,prize
+DEMO-0262,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.org/info,newsletter.txt,LEGITIMATE,hr
+DEMO-0263,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/delivery,,PHISHING,verification
+DEMO-0264,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",,policy.pdf,LEGITIMATE,project
+DEMO-0265,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/payment,,PHISHING,verification
+DEMO-0266,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.com/training,agenda.pdf,LEGITIMATE,password
+DEMO-0267,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/delivery,payment.zip,PHISHING,executive
+DEMO-0268,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.org/info,policy.pdf,LEGITIMATE,bank-style
+DEMO-0269,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/delivery,payment.zip,PHISHING,executive
+DEMO-0270,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.com/training,,LEGITIMATE,shopping
+DEMO-0271,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/verify-account,invoice.pdf.exe,PHISHING,delivery
+DEMO-0272,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",https://example.org/info,,LEGITIMATE,meeting
+DEMO-0273,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/payment,invoice.pdf.exe,PHISHING,invoice
+DEMO-0274,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",,,LEGITIMATE,hr
+DEMO-0275,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/login,payment.zip,PHISHING,password
+DEMO-0276,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,,agenda.pdf,LEGITIMATE,shopping
+DEMO-0277,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/claim-reward,payment.zip,PHISHING,prize
+DEMO-0278,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.com/training,agenda.pdf,LEGITIMATE,hr
+DEMO-0279,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/delivery,invoice.pdf.exe,PHISHING,prize
+DEMO-0280,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",,agenda.pdf,LEGITIMATE,password
+DEMO-0281,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/payment,verification.js,PHISHING,hr
+DEMO-0282,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",,,LEGITIMATE,project
+DEMO-0283,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/claim-reward,verification.js,PHISHING,invoice
+DEMO-0284,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,,newsletter.txt,LEGITIMATE,bank-style
+DEMO-0285,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/claim-reward,payment.zip,PHISHING,hr
+DEMO-0286,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.com/training,newsletter.txt,LEGITIMATE,shopping
+DEMO-0287,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/verify-account,,PHISHING,password
+DEMO-0288,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.com/training,policy.pdf,LEGITIMATE,password
+DEMO-0289,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/claim-reward,,PHISHING,delivery
+DEMO-0290,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",,,LEGITIMATE,hr
+DEMO-0291,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/claim-reward,,PHISHING,executive
+DEMO-0292,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.org/info,newsletter.txt,LEGITIMATE,project
+DEMO-0293,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/payment,payment.zip,PHISHING,prize
+DEMO-0294,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,,newsletter.txt,LEGITIMATE,bank-style
+DEMO-0295,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/login,verification.js,PHISHING,prize
+DEMO-0296,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,https://example.com/training,,LEGITIMATE,newsletter
+DEMO-0297,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/payment,verification.js,PHISHING,executive
+DEMO-0298,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.com/training,newsletter.txt,LEGITIMATE,password
+DEMO-0299,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/login,,PHISHING,prize
+DEMO-0300,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,,policy.pdf,LEGITIMATE,bank-style
+DEMO-0301,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/claim-reward,,PHISHING,prize
+DEMO-0302,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.com/training,,LEGITIMATE,password
+DEMO-0303,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/delivery,payment.zip,PHISHING,hr
+DEMO-0304,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",,agenda.pdf,LEGITIMATE,password
+DEMO-0305,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/claim-reward,payment.zip,PHISHING,delivery
+DEMO-0306,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,,agenda.pdf,LEGITIMATE,bank-style
+DEMO-0307,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/delivery,invoice.pdf.exe,PHISHING,prize
+DEMO-0308,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.org/info,newsletter.txt,LEGITIMATE,shopping
+DEMO-0309,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/verify-account,invoice.pdf.exe,PHISHING,verification
+DEMO-0310,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.org/info,,LEGITIMATE,project
+DEMO-0311,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/login,,PHISHING,delivery
+DEMO-0312,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",,newsletter.txt,LEGITIMATE,meeting
+DEMO-0313,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/payment,payment.zip,PHISHING,verification
+DEMO-0314,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.com/training,policy.pdf,LEGITIMATE,shopping
+DEMO-0315,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/login,payment.zip,PHISHING,password
+DEMO-0316,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",https://example.org/info,agenda.pdf,LEGITIMATE,meeting
+DEMO-0317,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/payment,invoice.pdf.exe,PHISHING,password
+DEMO-0318,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.org/info,newsletter.txt,LEGITIMATE,hr
+DEMO-0319,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/delivery,verification.js,PHISHING,prize
+DEMO-0320,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.org/info,policy.pdf,LEGITIMATE,university
+DEMO-0321,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/delivery,payment.zip,PHISHING,executive
+DEMO-0322,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.org/info,newsletter.txt,LEGITIMATE,project
+DEMO-0323,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/claim-reward,payment.zip,PHISHING,prize
+DEMO-0324,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.org/info,agenda.pdf,LEGITIMATE,bank-style
+DEMO-0325,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/payment,payment.zip,PHISHING,hr
+DEMO-0326,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",https://example.org/info,,LEGITIMATE,meeting
+DEMO-0327,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/login,payment.zip,PHISHING,prize
+DEMO-0328,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.com/training,agenda.pdf,LEGITIMATE,password
+DEMO-0329,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/verify-account,invoice.pdf.exe,PHISHING,password
+DEMO-0330,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,,newsletter.txt,LEGITIMATE,newsletter
+DEMO-0331,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/delivery,payment.zip,PHISHING,verification
+DEMO-0332,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.com/training,agenda.pdf,LEGITIMATE,university
+DEMO-0333,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/payment,,PHISHING,password
+DEMO-0334,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.org/info,policy.pdf,LEGITIMATE,bank-style
+DEMO-0335,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/login,,PHISHING,delivery
+DEMO-0336,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,https://example.com/training,newsletter.txt,LEGITIMATE,newsletter
+DEMO-0337,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/login,,PHISHING,prize
+DEMO-0338,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",,policy.pdf,LEGITIMATE,hr
+DEMO-0339,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/verify-account,payment.zip,PHISHING,invoice
+DEMO-0340,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.com/training,,LEGITIMATE,hr
+DEMO-0341,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/payment,verification.js,PHISHING,password
+DEMO-0342,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",,policy.pdf,LEGITIMATE,university
+DEMO-0343,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/verify-account,verification.js,PHISHING,executive
+DEMO-0344,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,https://example.org/info,newsletter.txt,LEGITIMATE,newsletter
+DEMO-0345,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/payment,payment.zip,PHISHING,invoice
+DEMO-0346,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",,agenda.pdf,LEGITIMATE,project
+DEMO-0347,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/delivery,payment.zip,PHISHING,verification
+DEMO-0348,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",https://example.org/info,agenda.pdf,LEGITIMATE,meeting
+DEMO-0349,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/login,verification.js,PHISHING,invoice
+DEMO-0350,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.org/info,,LEGITIMATE,bank-style
+DEMO-0351,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/login,verification.js,PHISHING,executive
+DEMO-0352,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",,newsletter.txt,LEGITIMATE,project
+DEMO-0353,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/delivery,verification.js,PHISHING,prize
+DEMO-0354,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.com/training,policy.pdf,LEGITIMATE,password
+DEMO-0355,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/claim-reward,invoice.pdf.exe,PHISHING,password
+DEMO-0356,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.org/info,,LEGITIMATE,password
+DEMO-0357,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/login,verification.js,PHISHING,invoice
+DEMO-0358,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.com/training,policy.pdf,LEGITIMATE,shopping
+DEMO-0359,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/login,verification.js,PHISHING,verification
+DEMO-0360,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.com/training,,LEGITIMATE,university
+DEMO-0361,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/login,verification.js,PHISHING,delivery
+DEMO-0362,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",https://example.com/training,policy.pdf,LEGITIMATE,meeting
+DEMO-0363,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/payment,verification.js,PHISHING,invoice
+DEMO-0364,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.com/training,,LEGITIMATE,project
+DEMO-0365,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/verify-account,verification.js,PHISHING,hr
+DEMO-0366,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,,policy.pdf,LEGITIMATE,bank-style
+DEMO-0367,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/payment,,PHISHING,hr
+DEMO-0368,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.org/info,newsletter.txt,LEGITIMATE,shopping
+DEMO-0369,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/payment,invoice.pdf.exe,PHISHING,invoice
+DEMO-0370,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,https://example.com/training,policy.pdf,LEGITIMATE,newsletter
+DEMO-0371,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/payment,verification.js,PHISHING,executive
+DEMO-0372,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.org/info,policy.pdf,LEGITIMATE,bank-style
+DEMO-0373,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/verify-account,payment.zip,PHISHING,executive
+DEMO-0374,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",,agenda.pdf,LEGITIMATE,hr
+DEMO-0375,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/login,verification.js,PHISHING,executive
+DEMO-0376,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.org/info,,LEGITIMATE,hr
+DEMO-0377,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/delivery,,PHISHING,prize
+DEMO-0378,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.org/info,policy.pdf,LEGITIMATE,bank-style
+DEMO-0379,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/login,verification.js,PHISHING,delivery
+DEMO-0380,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.com/training,agenda.pdf,LEGITIMATE,hr
+DEMO-0381,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/verify-account,verification.js,PHISHING,password
+DEMO-0382,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",https://example.com/training,,LEGITIMATE,meeting
+DEMO-0383,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/login,verification.js,PHISHING,hr
+DEMO-0384,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",,agenda.pdf,LEGITIMATE,password
+DEMO-0385,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/verify-account,verification.js,PHISHING,verification
+DEMO-0386,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,,,LEGITIMATE,bank-style
+DEMO-0387,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/delivery,invoice.pdf.exe,PHISHING,invoice
+DEMO-0388,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.org/info,policy.pdf,LEGITIMATE,password
+DEMO-0389,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/delivery,payment.zip,PHISHING,hr
+DEMO-0390,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.org/info,,LEGITIMATE,project
+DEMO-0391,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/login,payment.zip,PHISHING,executive
+DEMO-0392,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,,policy.pdf,LEGITIMATE,shopping
+DEMO-0393,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/login,payment.zip,PHISHING,invoice
+DEMO-0394,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",https://example.org/info,,LEGITIMATE,meeting
+DEMO-0395,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/claim-reward,verification.js,PHISHING,hr
+DEMO-0396,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.org/info,policy.pdf,LEGITIMATE,university
+DEMO-0397,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/verify-account,payment.zip,PHISHING,invoice
+DEMO-0398,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.com/training,agenda.pdf,LEGITIMATE,hr
+DEMO-0399,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/delivery,,PHISHING,hr
+DEMO-0400,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.org/info,agenda.pdf,LEGITIMATE,university
+DEMO-0401,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/delivery,invoice.pdf.exe,PHISHING,invoice
+DEMO-0402,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.com/training,agenda.pdf,LEGITIMATE,hr
+DEMO-0403,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/payment,invoice.pdf.exe,PHISHING,delivery
+DEMO-0404,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,,,LEGITIMATE,newsletter
+DEMO-0405,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/payment,invoice.pdf.exe,PHISHING,prize
+DEMO-0406,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,,,LEGITIMATE,shopping
+DEMO-0407,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/verify-account,invoice.pdf.exe,PHISHING,hr
+DEMO-0408,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.org/info,agenda.pdf,LEGITIMATE,university
+DEMO-0409,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/claim-reward,,PHISHING,delivery
+DEMO-0410,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.org/info,,LEGITIMATE,project
+DEMO-0411,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/login,,PHISHING,invoice
+DEMO-0412,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.org/info,newsletter.txt,LEGITIMATE,hr
+DEMO-0413,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/claim-reward,,PHISHING,executive
+DEMO-0414,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.com/training,agenda.pdf,LEGITIMATE,bank-style
+DEMO-0415,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/verify-account,verification.js,PHISHING,delivery
+DEMO-0416,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.com/training,,LEGITIMATE,bank-style
+DEMO-0417,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/login,payment.zip,PHISHING,verification
+DEMO-0418,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.com/training,,LEGITIMATE,password
+DEMO-0419,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/login,,PHISHING,password
+DEMO-0420,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.org/info,agenda.pdf,LEGITIMATE,hr
+DEMO-0421,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/payment,verification.js,PHISHING,verification
+DEMO-0422,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,https://example.org/info,policy.pdf,LEGITIMATE,newsletter
+DEMO-0423,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/delivery,payment.zip,PHISHING,password
+DEMO-0424,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.com/training,,LEGITIMATE,hr
+DEMO-0425,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/delivery,invoice.pdf.exe,PHISHING,executive
+DEMO-0426,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.org/info,agenda.pdf,LEGITIMATE,password
+DEMO-0427,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/claim-reward,payment.zip,PHISHING,password
+DEMO-0428,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.org/info,,LEGITIMATE,password
+DEMO-0429,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/login,verification.js,PHISHING,prize
+DEMO-0430,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.org/info,agenda.pdf,LEGITIMATE,shopping
+DEMO-0431,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/login,,PHISHING,hr
+DEMO-0432,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",,,LEGITIMATE,hr
+DEMO-0433,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/verify-account,verification.js,PHISHING,password
+DEMO-0434,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.com/training,,LEGITIMATE,project
+DEMO-0435,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/delivery,verification.js,PHISHING,delivery
+DEMO-0436,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.org/info,policy.pdf,LEGITIMATE,hr
+DEMO-0437,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/login,,PHISHING,executive
+DEMO-0438,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.com/training,policy.pdf,LEGITIMATE,shopping
+DEMO-0439,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/verify-account,invoice.pdf.exe,PHISHING,prize
+DEMO-0440,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.com/training,newsletter.txt,LEGITIMATE,project
+DEMO-0441,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/verify-account,verification.js,PHISHING,invoice
+DEMO-0442,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,,policy.pdf,LEGITIMATE,newsletter
+DEMO-0443,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/payment,payment.zip,PHISHING,delivery
+DEMO-0444,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.com/training,policy.pdf,LEGITIMATE,university
+DEMO-0445,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/payment,verification.js,PHISHING,verification
+DEMO-0446,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.org/info,policy.pdf,LEGITIMATE,shopping
+DEMO-0447,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/payment,invoice.pdf.exe,PHISHING,verification
+DEMO-0448,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",,agenda.pdf,LEGITIMATE,password
+DEMO-0449,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/verify-account,,PHISHING,hr
+DEMO-0450,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",https://example.org/info,newsletter.txt,LEGITIMATE,meeting
+DEMO-0451,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/claim-reward,invoice.pdf.exe,PHISHING,password
+DEMO-0452,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,https://example.org/info,policy.pdf,LEGITIMATE,newsletter
+DEMO-0453,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/delivery,,PHISHING,executive
+DEMO-0454,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",,agenda.pdf,LEGITIMATE,university
+DEMO-0455,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/delivery,,PHISHING,executive
+DEMO-0456,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.org/info,newsletter.txt,LEGITIMATE,hr
+DEMO-0457,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/login,payment.zip,PHISHING,hr
+DEMO-0458,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.org/info,policy.pdf,LEGITIMATE,bank-style
+DEMO-0459,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/delivery,,PHISHING,invoice
+DEMO-0460,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,https://example.org/info,,LEGITIMATE,newsletter
+DEMO-0461,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/delivery,payment.zip,PHISHING,prize
+DEMO-0462,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,,agenda.pdf,LEGITIMATE,shopping
+DEMO-0463,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/delivery,,PHISHING,password
+DEMO-0464,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",,policy.pdf,LEGITIMATE,university
+DEMO-0465,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/payment,verification.js,PHISHING,invoice
+DEMO-0466,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.org/info,,LEGITIMATE,shopping
+DEMO-0467,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/login,payment.zip,PHISHING,verification
+DEMO-0468,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",,newsletter.txt,LEGITIMATE,project
+DEMO-0469,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/payment,verification.js,PHISHING,delivery
+DEMO-0470,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.org/info,,LEGITIMATE,hr
+DEMO-0471,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/verify-account,payment.zip,PHISHING,password
+DEMO-0472,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.org/info,newsletter.txt,LEGITIMATE,hr
+DEMO-0473,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/login,payment.zip,PHISHING,delivery
+DEMO-0474,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,,newsletter.txt,LEGITIMATE,shopping
+DEMO-0475,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/claim-reward,invoice.pdf.exe,PHISHING,verification
+DEMO-0476,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.com/training,policy.pdf,LEGITIMATE,bank-style
+DEMO-0477,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/login,,PHISHING,verification
+DEMO-0478,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",https://example.org/info,newsletter.txt,LEGITIMATE,meeting
+DEMO-0479,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/verify-account,payment.zip,PHISHING,delivery
+DEMO-0480,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.com/training,policy.pdf,LEGITIMATE,shopping
+DEMO-0481,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/claim-reward,invoice.pdf.exe,PHISHING,invoice
+DEMO-0482,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.com/training,,LEGITIMATE,hr
+DEMO-0483,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/delivery,invoice.pdf.exe,PHISHING,delivery
+DEMO-0484,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,https://example.org/info,agenda.pdf,LEGITIMATE,newsletter
+DEMO-0485,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/verify-account,invoice.pdf.exe,PHISHING,invoice
+DEMO-0486,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,,agenda.pdf,LEGITIMATE,shopping
+DEMO-0487,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/payment,,PHISHING,delivery
+DEMO-0488,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.com/training,newsletter.txt,LEGITIMATE,project
+DEMO-0489,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/delivery,payment.zip,PHISHING,password
+DEMO-0490,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,https://example.com/training,policy.pdf,LEGITIMATE,newsletter
+DEMO-0491,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/login,,PHISHING,invoice
+DEMO-0492,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.org/info,policy.pdf,LEGITIMATE,bank-style
+DEMO-0493,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/claim-reward,,PHISHING,executive
+DEMO-0494,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,https://example.com/training,,LEGITIMATE,newsletter
+DEMO-0495,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/login,payment.zip,PHISHING,prize
+DEMO-0496,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",,policy.pdf,LEGITIMATE,university
+DEMO-0497,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/claim-reward,,PHISHING,executive
+DEMO-0498,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.com/training,newsletter.txt,LEGITIMATE,hr
+DEMO-0499,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/delivery,,PHISHING,password
+DEMO-0500,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.com/training,agenda.pdf,LEGITIMATE,bank-style
+DEMO-0501,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/delivery,payment.zip,PHISHING,prize
+DEMO-0502,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",,newsletter.txt,LEGITIMATE,project
+DEMO-0503,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/claim-reward,,PHISHING,verification
+DEMO-0504,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",,agenda.pdf,LEGITIMATE,project
+DEMO-0505,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/login,payment.zip,PHISHING,hr
+DEMO-0506,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.org/info,policy.pdf,LEGITIMATE,project
+DEMO-0507,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/login,payment.zip,PHISHING,prize
+DEMO-0508,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,https://example.com/training,,LEGITIMATE,newsletter
+DEMO-0509,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/claim-reward,,PHISHING,executive
+DEMO-0510,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,,newsletter.txt,LEGITIMATE,newsletter
+DEMO-0511,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/claim-reward,invoice.pdf.exe,PHISHING,prize
+DEMO-0512,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,,agenda.pdf,LEGITIMATE,newsletter
+DEMO-0513,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/claim-reward,payment.zip,PHISHING,prize
+DEMO-0514,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.com/training,,LEGITIMATE,project
+DEMO-0515,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/delivery,payment.zip,PHISHING,prize
+DEMO-0516,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,,,LEGITIMATE,newsletter
+DEMO-0517,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/login,verification.js,PHISHING,hr
+DEMO-0518,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.org/info,policy.pdf,LEGITIMATE,university
+DEMO-0519,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/payment,verification.js,PHISHING,invoice
+DEMO-0520,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,,agenda.pdf,LEGITIMATE,bank-style
+DEMO-0521,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/payment,,PHISHING,invoice
+DEMO-0522,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,,,LEGITIMATE,shopping
+DEMO-0523,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/claim-reward,invoice.pdf.exe,PHISHING,hr
+DEMO-0524,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",,agenda.pdf,LEGITIMATE,password
+DEMO-0525,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/delivery,invoice.pdf.exe,PHISHING,invoice
+DEMO-0526,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,,newsletter.txt,LEGITIMATE,bank-style
+DEMO-0527,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/payment,payment.zip,PHISHING,prize
+DEMO-0528,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.com/training,newsletter.txt,LEGITIMATE,shopping
+DEMO-0529,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/delivery,invoice.pdf.exe,PHISHING,invoice
+DEMO-0530,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.org/info,agenda.pdf,LEGITIMATE,shopping
+DEMO-0531,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/delivery,payment.zip,PHISHING,prize
+DEMO-0532,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.org/info,newsletter.txt,LEGITIMATE,bank-style
+DEMO-0533,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/delivery,payment.zip,PHISHING,delivery
+DEMO-0534,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",,agenda.pdf,LEGITIMATE,project
+DEMO-0535,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/claim-reward,,PHISHING,executive
+DEMO-0536,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.org/info,,LEGITIMATE,bank-style
+DEMO-0537,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/delivery,,PHISHING,hr
+DEMO-0538,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,,agenda.pdf,LEGITIMATE,shopping
+DEMO-0539,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/login,invoice.pdf.exe,PHISHING,prize
+DEMO-0540,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",,agenda.pdf,LEGITIMATE,password
+DEMO-0541,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/login,verification.js,PHISHING,executive
+DEMO-0542,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.org/info,,LEGITIMATE,university
+DEMO-0543,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/delivery,verification.js,PHISHING,password
+DEMO-0544,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",https://example.org/info,,LEGITIMATE,meeting
+DEMO-0545,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/payment,,PHISHING,prize
+DEMO-0546,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,,policy.pdf,LEGITIMATE,newsletter
+DEMO-0547,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/payment,invoice.pdf.exe,PHISHING,executive
+DEMO-0548,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",https://example.org/info,newsletter.txt,LEGITIMATE,university
+DEMO-0549,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/payment,payment.zip,PHISHING,hr
+DEMO-0550,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.com/training,,LEGITIMATE,bank-style
+DEMO-0551,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/verify-account,verification.js,PHISHING,verification
+DEMO-0552,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",,newsletter.txt,LEGITIMATE,meeting
+DEMO-0553,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/claim-reward,invoice.pdf.exe,PHISHING,verification
+DEMO-0554,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,,,LEGITIMATE,shopping
+DEMO-0555,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/login,payment.zip,PHISHING,invoice
+DEMO-0556,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",,newsletter.txt,LEGITIMATE,hr
+DEMO-0557,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/delivery,,PHISHING,delivery
+DEMO-0558,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",https://example.com/training,agenda.pdf,LEGITIMATE,meeting
+DEMO-0559,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/login,,PHISHING,prize
+DEMO-0560,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,,newsletter.txt,LEGITIMATE,newsletter
+DEMO-0561,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/verify-account,verification.js,PHISHING,invoice
+DEMO-0562,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.com/training,,LEGITIMATE,hr
+DEMO-0563,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/login,,PHISHING,password
+DEMO-0564,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.org/info,policy.pdf,LEGITIMATE,password
+DEMO-0565,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/verify-account,verification.js,PHISHING,hr
+DEMO-0566,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.org/info,agenda.pdf,LEGITIMATE,hr
+DEMO-0567,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/verify-account,verification.js,PHISHING,hr
+DEMO-0568,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",,policy.pdf,LEGITIMATE,project
+DEMO-0569,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/claim-reward,invoice.pdf.exe,PHISHING,delivery
+DEMO-0570,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.com/training,newsletter.txt,LEGITIMATE,bank-style
+DEMO-0571,hr-director@executive.invalid.test,executive.invalid.test,Urgent HR Request,I need you to process this urgent payroll request immediately. Confirm personal information and payment details.,http://198.51.100.10/payment,invoice.pdf.exe,PHISHING,hr
+DEMO-0572,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.com/training,newsletter.txt,LEGITIMATE,hr
+DEMO-0573,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/claim-reward,invoice.pdf.exe,PHISHING,verification
+DEMO-0574,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",,,LEGITIMATE,university
+DEMO-0575,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/claim-reward,payment.zip,PHISHING,prize
+DEMO-0576,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.org/info,,LEGITIMATE,bank-style
+DEMO-0577,ceo@executive.invalid.test,executive.invalid.test,Confidential Payment Request,This is urgent. Please arrange the requested payment today and send confirmation. Do not delay.,http://198.51.100.10/payment,verification.js,PHISHING,executive
+DEMO-0578,news@example.org,example.org,Monthly Newsletter,Here is the monthly technology newsletter with articles and learning resources.,,policy.pdf,LEGITIMATE,newsletter
+DEMO-0579,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/verify-account,verification.js,PHISHING,prize
+DEMO-0580,account@example.net,example.net,Password Change Confirmation,"Your password was changed successfully. If you made this change, no action is required. If not, contact support through the official portal.",https://example.org/info,newsletter.txt,LEGITIMATE,password
+DEMO-0581,account-support@login.invalid.test,login.invalid.test,Password Expires Today,Your password expires today. Verify your credentials now at http://198.51.100.10/login,http://198.51.100.10/claim-reward,invoice.pdf.exe,PHISHING,password
+DEMO-0582,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,https://example.com/training,newsletter.txt,LEGITIMATE,bank-style
+DEMO-0583,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/delivery,verification.js,PHISHING,prize
+DEMO-0584,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.com/training,newsletter.txt,LEGITIMATE,hr
+DEMO-0585,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/login,invoice.pdf.exe,PHISHING,verification
+DEMO-0586,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.org/info,,LEGITIMATE,shopping
+DEMO-0587,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/claim-reward,verification.js,PHISHING,verification
+DEMO-0588,orders@example.com,example.com,Order Confirmation,Thank you for your order. Your fictional order reference is DEMO-12345. This message contains no payment request.,https://example.org/info,newsletter.txt,LEGITIMATE,shopping
+DEMO-0589,billing-alert@secure-check.invalid.test,secure-check.invalid.test,URGENT: Outstanding Invoice,Your invoice is overdue. Confirm your payment details today or your service may be suspended. Visit http://198.51.100.10/payment,http://198.51.100.10/login,verification.js,PHISHING,invoice
+DEMO-0590,alerts@example.com,example.com,Demo Bank Account Notice,This fictional bank-style notice is for training only. Your monthly statement is available in the official demo portal.,,policy.pdf,LEGITIMATE,bank-style
+DEMO-0591,delivery-update@parcel.invalid.test,parcel.invalid.test,Delivery Verification Required,Your package could not be delivered. Confirm your personal details immediately at http://198.51.100.10/delivery,http://198.51.100.10/login,verification.js,PHISHING,delivery
+DEMO-0592,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",,newsletter.txt,LEGITIMATE,university
+DEMO-0593,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/delivery,invoice.pdf.exe,PHISHING,prize
+DEMO-0594,training@example.org,example.org,University Workshop Reminder,"Hello student,
+This is a reminder that the cybersecurity workshop is scheduled for Friday at 10:00 AM. No action is required.",,newsletter.txt,LEGITIMATE,university
+DEMO-0595,security-alert@account-check.invalid.test,account-check.invalid.test,URGENT: Verify Your Account Immediately,"Dear customer,
+Your account will be suspended unless you verify your password immediately. Act now using http://198.51.100.10/verify-account",http://198.51.100.10/payment,,PHISHING,verification
+DEMO-0596,calendar@example.net,example.net,Meeting Reminder,"Hello,
+This is a reminder for our project meeting tomorrow. The agenda is attached to the calendar invitation.",https://example.com/training,policy.pdf,LEGITIMATE,meeting
+DEMO-0597,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/login,,PHISHING,prize
+DEMO-0598,project@example.org,example.org,Project Status Update,"Hi team,
+The project milestone review is scheduled for Monday. Please bring your current progress notes.",https://example.com/training,newsletter.txt,LEGITIMATE,project
+DEMO-0599,winner@reward.invalid.test,reward.invalid.test,You Have Won a Reward,Congratulations! You have won a prize. Claim your reward immediately at http://198.51.100.10/claim-reward,http://198.51.100.10/claim-reward,payment.zip,PHISHING,prize
+DEMO-0600,hr@example.com,example.com,HR Policy Update,"Hello team,
+The updated leave policy is available in the employee portal. Please review it during your normal work schedule.",https://example.com/training,agenda.pdf,LEGITIMATE,hr

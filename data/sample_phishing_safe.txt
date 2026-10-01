@@ -1,0 +1,7 @@
+From: security-alert@account-check.invalid.test
+Subject: URGENT: Verify Your Account Immediately
+
+Dear customer,
+
+Your account will be suspended unless you verify your password immediately.
+Act now using http://198.51.100.10/verify-account
